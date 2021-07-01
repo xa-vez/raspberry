@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "install packages ..."
-#sudo apt install bind9 bind9utils
+sudo apt install bind9 bind9utils
 
 
 sudo cp bind/named.conf.local /etc/bind/.
